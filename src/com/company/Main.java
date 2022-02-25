@@ -7,9 +7,9 @@ public class Main {
     public String askAboutAge() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Hvor gammel er du?");
-        int alder = sc.nextInt();
+        int age = sc.nextInt();
 
-        String result = "Du er " + alder + " år.";
+        String result = "Du er " + age + " år.";
 
         return result;
     }
