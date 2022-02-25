@@ -31,9 +31,9 @@ public class Main {
 
         obj.greet();
 
-        String alder = obj.askAboutAge();
+        String age = obj.askAboutAge();
 
-        System.out.println(alder);
+        System.out.println(age);
 
 
     }
